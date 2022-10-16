@@ -125,18 +125,6 @@ https://outside-tv-samsung-ca.samsung.wurl.com/manifest/playlist.m3u8
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumo-playerstv/CDN/master.m3u8
 #EXTINF:-1 tvg-name="b" tvg-logo=" ",Sofy TV
 https://sofy-ger-samsung.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="b" tvg-logo=" ",Stingray Ambience
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-viziostingrayambiance/CDN/playlist.m3u8
-#EXTINF:-1 tvg-name="b" tvg-logo=" ",Stingray Classic Rock
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxstingrayclassicrock/CDN/playlist.m3u8
-#EXTINF:-1 tvg-name="b" tvg-logo=" ",Stingray Hit List
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxstingrayhitlist/CDN/playlist.m3u8
-#EXTINF:-1 tvg-name="b" tvg-logo=" ",Stingray Holiday Hits
-https://stirr.ott-channels.stingray.com/155/master.m3u8
-#EXTINF:-1 tvg-name="b" tvg-logo=" ",Stingray Hot Country
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxstingrayhotcountry/CDN/playlist.m3u8
-#EXTINF:-1 tvg-name="b" tvg-logo=" ",Stingray Karaoke
-https://dai.google.com/linear/hls/event/5bqbG8j7T_6_qMONC1SDsg/master.m3u8
 #EXTINF:-1 tvg-name="bikinine" tvg-logo="https://i.imgur.com/IBfTNOr.png",Bikinine
 https://vcnbikininetwork.teleosmedia.com/stream/bikininetwork/a3bikini/playlist.m3u8
 #EXTINF:-1 tvg-id="AdultIPTVnetAnal.us" tvg-logo="https://i.imgur.com/3eUIaHx.png" group-title="XXX",Anal
@@ -201,3 +189,15 @@ http://92.242.14.114:4022/udp/225.0.55.234:1234
 http://w4.12all.tv:4000/play/pinkotv/index.m3u8
 #EXTINF:-1 tvg-id="RedlightHD.nl" tvg-logo="https://i.imgur.com/I0EE3Z2.png" group-title="XXX",Redlight HD
 http://w4.12all.tv:4000/play/privatetv1/index.m3u8
+#EXTINF:-1 tvg-name="b" tvg-logo=" ",Stingray Ambience
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-viziostingrayambiance/CDN/playlist.m3u8
+#EXTINF:-1 tvg-name="b" tvg-logo=" ",Stingray Classic Rock
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxstingrayclassicrock/CDN/playlist.m3u8
+#EXTINF:-1 tvg-name="b" tvg-logo=" ",Stingray Hit List
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxstingrayhitlist/CDN/playlist.m3u8
+#EXTINF:-1 tvg-name="b" tvg-logo=" ",Stingray Holiday Hits
+https://stirr.ott-channels.stingray.com/155/master.m3u8
+#EXTINF:-1 tvg-name="b" tvg-logo=" ",Stingray Hot Country
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxstingrayhotcountry/CDN/playlist.m3u8
+#EXTINF:-1 tvg-name="b" tvg-logo=" ",Stingray Karaoke
+https://dai.google.com/linear/hls/event/5bqbG8j7T_6_qMONC1SDsg/master.m3u8

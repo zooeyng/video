@@ -1,8 +1,10 @@
-<!DOCTYPE html>
 <html>
 <head> 
 <meta charset="utf-8"> 
-<title>菜鸟教程(runoob.com)</title> 
+<title>PLAYER</title>
+<link href="./css/video.css" rel="stylesheet">
+<script src="./js/video.js"></script>
+<script src="./js/videojs-live.js"></script>	
 </head>
 <body>
 
@@ -28,7 +30,21 @@ function myFunction()
 </div>
 
 <div id="content" style="height:900px;width:1280px;float:left;">
-<iframe  height="900" width="1280" name="web"></iframe>	
+<iframe  height="900" width="1280" name="web"></iframe>
+	
+	<video id="video1" class="video-js vjs-default-skin" controls preload="auto" width="1250" height="703" data-setup='{}'>
+        <source src="https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8" type="application/x-mpegURL">
+    </video>
+	
+	<script> 
+var myVideo=document.getElementById("video1"); 
+
+function playVid()
+{ 
+  myVideo.play(); 
+} 
+</script>
+	
 </div>
 
 <div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">

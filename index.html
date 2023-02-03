@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset=utf-8 />
-    <title>Live</title>
-    <link href="./css/video.css" rel="stylesheet">
-    <script src="./js/video.js"></script>
-    <script src="./js/videojs-live.js"></script>
+<head> 
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
 </head>
-
 <body>
-  <h1>1288</h1>
-    <video id="my_video_1" class="video-js vjs-default-skin" controls preload="auto" width="800" height="500" data-setup='{}'>
-        <source src="http://media.fantv.hk/m3u8/archive/channel2.m3u8" type="application/x-mpegURL">
-    </video>
 
+<div id="container" style="width:800px">
+
+<div id="header" style="height:50px;width:800px;">
+<input type=button value="<--" onclick=" web.location.href='https://m.iptv222.com/?act=play&token=fd349b72eca707e10281e96e4dc2a4c1&tid=ys&id=5'">
+<input type=button value="-->" onclick=" web.location.href='https://m.iptv222.com/?act=play&token=32be377ec70543184cb4bda48df4800e&tid=ys&id=6'">
+
+<input id="age" value="6" />
+<button onclick="myFunction()">点击按钮</button>
+
+<script>
+function myFunction()
+{
+	var age,voteable;
+	age=document.getElementById("age").value;
+	voteable=Number(age)+1;
+    web.location.href='https://zooeyng.github.io/TV/tdm'+'1'+'.html'
+}
+</script>	
+	
+</div>
+
+<div id="content" style="background-color:#EEEEEE;height:500px;width:800px;float:left;">
+<iframe  height="500" width="800" name="web"></iframe>
+	</div>
+
+<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+版权 © runoob.com</div>
+
+</div>
+ 
 </body>
-
 </html>

@@ -1,0 +1,66 @@
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>PLAYER</title>
+	<style>
+body {
+	background-color:#000000;
+}
+	</style>	
+<link href="./css/video.css" rel="stylesheet">
+<script src="./js/video.js"></script>
+<script src="./js/videojs-live.js"></script>	
+</head>
+<body onload="play()">
+
+<div id="container" style="width:1280px">
+	
+<div id="header" style="height:100px;width:1280px;">
+
+<input style=" height: 80px; width: 200px; font-size:50px" id="age" value="1" size="8" >
+  
+<button style=" height: 80px; width: 200px; font-size:50px" onclick="ttt()">上一頁</button>
+	<button style=" height: 80px; width: 200px; font-size:50px" onclick="sss()">II</button>
+	<button style=" height: 80px; width: 200px; font-size:50px" onclick="ooo()">下一頁</button>
+</div>
+
+<div id="content" style="height:720px;width:1280px;float:left;">
+	
+	<video id="myVideo" class="video-js vjs-default-skin" controls preload="auto" width="1250" height="703" data-setup='{}'>
+        <source src="http://live4.tdm.com.mo/ch1/_definst_/ch1.live/playlist.m3u8" type="application/x-mpegURL">
+        </video>
+	
+	<script>
+var x = document.getElementById("myVideo");
+function ttt(){ 
+    	x.src = "http://cdn.adultiptv.net/asian.m3u8";
+ 	x.load();
+	x.play();
+} 
+    function sss(){ 
+    	x.src = "http://210.210.155.37/dr9445/h/h14/index.m3u8";
+ 	x.load();
+	x.play();
+}
+function ooo(){ 
+    	x.src = "http://cdn.adultiptv.net/blowjob.m3u8";
+ 	x.load();
+	x.play();
+} 
+		
+function play()
+{ 
+  x.play(); 
+} 
+		
+</script>
+	
+</div>
+
+<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+video player</div>
+
+</div>
+ 
+</body>
+</html>

@@ -20,8 +20,9 @@ body {
 <input style=" height: 80px; width: 200px; font-size:50px" id="age" value="1" size="8" >
   
 <button style=" height: 80px; width: 200px; font-size:50px" onclick="ttt()">上一頁</button>
-	<button style=" height: 80px; width: 200px; font-size:50px" onclick="sss()">II</button>
-	<button style=" height: 80px; width: 200px; font-size:50px" onclick="ooo()">下一頁</button>
+<button style=" height: 80px; width: 200px; font-size:50px" onclick="sss()">II</button>
+<button style=" height: 80px; width: 200px; font-size:50px" onclick="ooo()">下一頁</button>
+<button style=" height: 80px; width: 200px; font-size:50px" onclick="ppp()">GO</button>
 </div>
 
 <div id="content" style="height:720px;width:1280px;float:left;">
@@ -30,14 +31,38 @@ body {
         <source src="http://live4.tdm.com.mo/ch1/_definst_/ch1.live/playlist.m3u8" type="application/x-mpegURL">
         </video>
 	
-	<script>
+<script>
 var x = document.getElementById("myVideo");
+var e;
+var d=new Date().getDay();
+function ppp(){
+	switch (d){
+  		case 0:e="https://www.ast.tv/stream/1/master.m3u8";
+    	break;
+ 		case 1:e="http://live.redtraffic.net/woman.m3u8";
+        break;
+  		case 2:e="http://cdn.adultiptv.net/bigdick.m3u8";
+        break;
+                case 3:e="http://cdn.adultiptv.net/gay.m3u8";
+   	break;
+  		case 4:e="http://cdn.adultiptv.net/blowjob.m3u8";
+    	break;
+  		case 5:e="http://cdn.adultiptv.net/asian.m3u8";
+        break;
+  		case 6:e="http://210.210.155.37/dr9445/h/h14/index.m3u8";
+    	break;
+ 	}
+    	x.src =e;
+ 	x.load();
+	x.play();
+}
+	
 function ttt(){ 
     	x.src = "http://cdn.adultiptv.net/asian.m3u8";
  	x.load();
 	x.play();
 } 
-    function sss(){ 
+function sss(){ 
     	x.src = "http://210.210.155.37/dr9445/h/h14/index.m3u8";
  	x.load();
 	x.play();

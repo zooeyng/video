@@ -17,7 +17,7 @@ body {
 	
 <div id="header" style="height:100px;width:1280px;">
 
-<input style=" height: 80px; width: 200px; font-size:50px" id="age" value="7" size="8" >
+<input style=" height: 80px; width: 200px; font-size:50px" id="age" value="3" size="8" >
   
 <button style=" height: 80px; width: 200px; font-size:50px" onclick="ttt()">上一頁</button>
 <button style=" height: 80px; width: 200px; font-size:50px" onclick="sss()">II</button>
@@ -32,11 +32,12 @@ body {
         </video>
 	
 <script>
-var x = document.getElementById("myVideo");
-var e,f,g;
-var d=new Date().getDay();
+var x,e,f,g;
 f=document.getElementById("age").value;
-g=Number(f); 
+x = document.getElementById("myVideo");
+g=Number(f);
+var d=new Date().getDay();	
+	
 function ppp(){
 	switch (g){
   		case 7:e="https://www.ast.tv/stream/1/master.m3u8";
@@ -49,9 +50,9 @@ function ppp(){
    	break;
   		case 4:e="http://cdn.adultiptv.net/blowjob.m3u8";
     	break;
-  		case 5:e="http://cdn.adultiptv.net/asian.m3u8";
+  		case 5:e="http://210.210.155.37/dr9445/h/h14/index.m3u8";
         break;
-  		case 6:e="http://210.210.155.37/dr9445/h/h14/index.m3u8";
+  		case 6:e="http://cdn.adultiptv.net/asian.m3u8";
     	break;
  	}
     	x.src =e;
@@ -59,16 +60,34 @@ function ppp(){
 	x.play();
 }
 	
-function ttt(){ 
-    	x.src = "http://cdn.adultiptv.net/asian.m3u8";
+function ttt(){
+	switch (d){
+  		case 7:e="https://www.ast.tv/stream/1/master.m3u8";
+    	break;
+ 		case 1:e="http://live.redtraffic.net/woman.m3u8";
+        break;
+  		case 2:e="http://cdn.adultiptv.net/bigdick.m3u8";
+        break;
+                case 3:e="http://cdn.adultiptv.net/gay.m3u8";
+   	break;
+  		case 4:e="http://cdn.adultiptv.net/blowjob.m3u8";
+    	break;
+  		case 5:e="http://210.210.155.37/dr9445/h/h14/index.m3u8";
+        break;
+  		case 6:e="http://cdn.adultiptv.net/asian.m3u8";
+    	break;
+ 	}
+    	x.src =e;
  	x.load();
 	x.play();
-} 
+}
+	
 function sss(){ 
     	x.src = "http://210.210.155.37/dr9445/h/h14/index.m3u8";
  	x.load();
 	x.play();
 }
+	
 function ooo(){ 
     	x.src = "http://cdn.adultiptv.net/blowjob.m3u8";
  	x.load();

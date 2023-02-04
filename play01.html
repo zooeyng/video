@@ -26,6 +26,7 @@
 function one(){ 
 var v2,v1,e,f,g;
 v2 = document.getElementById("myVideo2");
+v1= document.getElementById("myVideo");
 f = document.getElementById("myVideo2").width;
 g = Number(f)-1;
 v2.width = g;
@@ -55,6 +56,7 @@ v2.width = g;
 function one(){ 
 var v2,v1,e,f,g;
 v2 = document.getElementById("myVideo2");
+v1= document.getElementById("myVideo");
 f = document.getElementById("myVideo2").width;
 g = Number(f)+1;
 v2.width = g;
@@ -81,12 +83,9 @@ v2.width = g;
 </script>
 
 <script>
-var x,e,f,g;
-f = document.getElementById("age").value;
+var x;
 x = document.getElementById("myVideo");
-g = Number(f);
-var d = new Date().getDay();	
-	
+
 function sss(){ 
     	x.src = "http://210.210.155.37/dr9445/h/h14/index.m3u8";
  	x.load();

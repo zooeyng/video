@@ -2,21 +2,43 @@
 <head> 
 <meta charset="utf-8"> 
 <title>PLAYER</title>
-	<style>
-body {
-	background-color:#000000;
-}
-	</style>	
+	
 <link href="./css/video.css" rel="stylesheet">
 <script src="./js/video.js"></script>
 <script src="./js/videojs-live.js"></script>	
 </head>
 <body onload="play()">
 
+年龄:<input id="age" value="3" >
+<button onclick="myFunction()">点击这里</button>
+<p id="demo"></p>
+<script>
+function myFunction(){
+var x;
+var e,f,g;
+var d=new Date().getDay();
+f=document.getElementById("age").value;
+g=Number(f); 
+	switch (g){
+  		case 0:x="今天是星期日";
+    	break;
+ 		case 1:x="今天是星期一";
+        break;
+  		case 2:x="今天是星期二";
+        break;
+        case 3:x="今天是星期三";
+   	 	break;
+  		case 4:x="今天是星期四";
+    	break;
+  		case 5:x="今天是星期五";
+        break;
+  		case 6:x="今天是星期六";
+    	break;
+ 	}
+	document.getElementById("demo").innerHTML=x;
+}
+</script>
 
-
-<input style=" height: 80px; width: 200px; font-size:50px" id="age" value="3" size="8" >
-  
 <button style=" height: 80px; width: 200px; font-size:50px" onclick="ttt()">上一頁</button>
 <button style=" height: 80px; width: 200px; font-size:50px" onclick="sss()">II</button>
 <button style=" height: 80px; width: 200px; font-size:50px" onclick="ooo()">下一頁</button>

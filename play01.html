@@ -11,7 +11,7 @@ body {
 <script src="./js/video.js"></script>
 <script src="./js/videojs-live.js"></script>	
 </head>
-<body>
+<body onload="play()">
 
 <div id="container" style="width:1280px">
 	
@@ -35,11 +35,19 @@ var x = document.getElementById("myVideo");
 function ttt(){ 
     	x.src = "http://210.210.155.37/dr9445/h/h14/index.m3u8";
  	x.load();
+	x.play();
 } 
-	function ooo(){ 
+function ooo(){ 
     	x.src = "https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8";
  	x.load();
+	x.play();
 } 
+		
+function play()
+{ 
+  x.play(); 
+} 
+		
 </script>
 	
 </div>

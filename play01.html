@@ -1,14 +1,14 @@
 <html>
 <head> 
 <meta charset="utf-8"> 
-<title>PLAYER1</title>
+<title>PLAYER</title>
 	
 <link href="./css/video.css" rel="stylesheet">
 <script src="./js/video.js"></script>
 <script src="./js/videojs-live.js"></script>	
 </head>
 <body onload="play()">
-
+<p id="demo"></p>
 <button style=" height: 80px; width: 200px; font-size:50px" onclick="one()">上一頁</button>
 <button style=" height: 80px; width: 200px; font-size:50px" onclick="sss()">II</button>
 <button style=" height: 80px; width: 200px; font-size:50px" onclick="two()">下一頁</button>
@@ -29,6 +29,7 @@ v2 = document.getElementById("myVideo2");
 v1= document.getElementById("myVideo");
 f = document.getElementById("myVideo2").width;
 g = Number(f)-1;
+document.getElementById("demo").innerHTML =g;
 v2.width = g;
 	switch (g){
   		case 7:e="https://www.ast.tv/stream/1/master.m3u8";
@@ -53,12 +54,13 @@ v2.width = g;
 </script>
 	
 	<script>
-function one(){ 
+function two(){ 
 var v2,v1,e,f,g;
 v2 = document.getElementById("myVideo2");
 v1= document.getElementById("myVideo");
 f = document.getElementById("myVideo2").width;
 g = Number(f)+1;
+document.getElementById("demo").innerHTML =g;
 v2.width = g;
 	switch (g){
   		case 7:e="https://www.ast.tv/stream/1/master.m3u8";

@@ -1,39 +1,102 @@
 <html>
-<head>
-<meta charset="utf-8">
-<title>菜鸟教程(runoob.com)</title>
+<head> 
+<meta charset="utf-8"> 
+<title>PLAYER</title>
+	<style>
+body {
+	background-color:#000000;
+}
+	</style>	
+<link href="./css/video.css" rel="stylesheet">
+<script src="./js/video.js"></script>
+<script src="./js/videojs-live.js"></script>	
 </head>
-<body>
+<body onload="play()">
 
-年龄:<input id="age" value="3" >
-<button onclick="myFunction()">点击这里</button>
-<p id="demo"></p>
+
+
+<input style=" height: 80px; width: 200px; font-size:50px" id="age" value="3" size="8" >
+  
+<button style=" height: 80px; width: 200px; font-size:50px" onclick="ttt()">上一頁</button>
+<button style=" height: 80px; width: 200px; font-size:50px" onclick="sss()">II</button>
+<button style=" height: 80px; width: 200px; font-size:50px" onclick="ooo()">下一頁</button>
+<button style=" height: 80px; width: 200px; font-size:50px" onclick="ppp()">GO</button>
+	
+	<p></p>
+	
+	<video id="myVideo" class="video-js vjs-default-skin" controls preload="auto" width="1250" height="703" data-setup='{}'>
+        <source src="http://live4.tdm.com.mo/ch1/_definst_/ch1.live/playlist.m3u8" type="application/x-mpegURL">
+        </video>
+	
 <script>
-function myFunction(){
-var x;
-var e,f,g;
-var d=new Date().getDay();
-f=document.getElementById("age").value;
-g=Number(f); 
+var x,e,f,g;
+f = document.getElementById("age").value;
+x = document.getElementById("myVideo");
+g = Number(f);
+var d = new Date().getDay();	
+	
+function ppp(){
 	switch (g){
-  		case 0:x="今天是星期日";
+  		case 7:e="https://www.ast.tv/stream/1/master.m3u8";
     	break;
- 		case 1:x="今天是星期一";
+ 		case 1:e="http://live.redtraffic.net/woman.m3u8";
         break;
-  		case 2:x="今天是星期二";
+  		case 2:e="http://cdn.adultiptv.net/bigdick.m3u8";
         break;
-                case 3:x="今天是星期三";
+                case 3:e="http://cdn.adultiptv.net/gay.m3u8";
    	break;
-  		case 4:x="今天是星期四";
+  		case 4:e="http://cdn.adultiptv.net/blowjob.m3u8";
     	break;
-  		case 5:x="今天是星期五";
+  		case 5:e="http://210.210.155.37/dr9445/h/h14/index.m3u8";
         break;
-  		case 6:x="今天是星期六";
+  		case 6:e="http://cdn.adultiptv.net/asian.m3u8";
     	break;
  	}
-	document.getElementById("demo").innerHTML=x;
+    	x.src =e;
+ 	x.load();
+	x.play();
 }
+	
+function ttt(){
+	switch (d){
+  		case 7:e="https://www.ast.tv/stream/1/master.m3u8";
+    	break;
+ 		case 1:e="http://live.redtraffic.net/woman.m3u8";
+        break;
+  		case 2:e="http://cdn.adultiptv.net/bigdick.m3u8";
+        break;
+                case 3:e="http://cdn.adultiptv.net/gay.m3u8";
+   	break;
+  		case 4:e="http://cdn.adultiptv.net/blowjob.m3u8";
+    	break;
+  		case 5:e="http://210.210.155.37/dr9445/h/h14/index.m3u8";
+        break;
+  		case 6:e="http://cdn.adultiptv.net/asian.m3u8";
+    	break;
+ 	}
+    	x.src =e;
+ 	x.load();
+	x.play();
+}
+	
+function sss(){ 
+    	x.src = "http://210.210.155.37/dr9445/h/h14/index.m3u8";
+ 	x.load();
+	x.play();
+}
+	
+function ooo(){ 
+    	x.src = "http://cdn.adultiptv.net/blowjob.m3u8";
+ 	x.load();
+	x.play();
+} 
+		
+function play()
+{ 
+  x.play(); 
+} 
+		
 </script>
-
+	
 </body>
 </html>

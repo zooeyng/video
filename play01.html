@@ -1,61 +1,40 @@
+<!DOCTYPE html>
 <html>
-<head> 
-<meta charset="utf-8"> 
-<title>PLAYER</title>
-	<style>
-body {
-	background-color:#000000;
-}
-	</style>	
-<link href="./css/video.css" rel="stylesheet">
-<script src="./js/video.js"></script>
-<script src="./js/videojs-live.js"></script>	
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
 </head>
-<body onload="play()">
+<body>
 
-<div id="container" style="width:1280px">
-	
-<div id="header" style="height:100px;width:1280px;">
-
-<input style=" height: 80px; width: 200px; font-size:50px" id="age" value="1" size="8" >
-  
-<button style=" height: 80px; width: 200px; font-size:50px" onclick="ttt()">上一頁</button>
-	<button style=" height: 80px; width: 200px; font-size:50px" onclick="ooo()">下一頁</button>
-	
-</div>
-
-<div id="content" style="height:720px;width:1280px;float:left;">
-	
-	<video id="myVideo" class="video-js vjs-default-skin" controls preload="auto" width="1250" height="703" data-setup='{}'>
-        <source src="http://live4.tdm.com.mo/ch1/_definst_/ch1.live/playlist.m3u8" type="application/x-mpegURL">
-        </video>
-	
-	<script>
-var x = document.getElementById("myVideo");
-function ttt(){ 
-    	x.src = "http://210.210.155.37/dr9445/h/h14/index.m3u8";
- 	x.load();
-	x.play();
-} 
-function ooo(){ 
-    	x.src = "https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8";
- 	x.load();
-	x.play();
-} 
-		
-function play()
-{ 
-  x.play(); 
-} 
-		
+年龄:<input id="age" value="3" >
+<button onclick="myFunction()">点击这里</button>
+<p id="demo"></p>
+<script>
+function myFunction(){
+var x;
+var e,f,g;
+var d=new Date().getDay();
+f=document.getElementById("age").value;
+g=Number(f); 
+	switch (g){
+  		case 0:x="今天是星期日";
+    	break;
+ 		case 1:x="今天是星期一";
+        break;
+  		case 2:x="今天是星期二";
+        break;
+                case 3:x="今天是星期三";
+   	break;
+  		case 4:x="今天是星期四";
+    	break;
+  		case 5:x="今天是星期五";
+        break;
+  		case 6:x="今天是星期六";
+    	break;
+ 	}
+	document.getElementById("demo").innerHTML=x;
+}
 </script>
-	
-</div>
 
-<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
-video player</div>
-
-</div>
- 
 </body>
 </html>

@@ -1,112 +1,146 @@
 <html>
 <head> 
 <meta charset="utf-8"> 
-<title>PLAYER</title>
-	<style>
+<title>ZOOEY TV</title>
+	
+<style>
 body {
 	background-color:#000000;
 }
-	</style>	
-<link href="./css/video.css" rel="stylesheet">
-<script src="./js/video.js"></script>
-<script src="./js/videojs-live.js"></script>	
+
+p {
+	text-align:center;
+	font-size:50px;
+	color:#FF66C4;
+	padding:25px;
+	font-weight:bold;
+}
+	
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #80F0FF;
+	font-weight:bold;
+    text-align: center;
+	font-size:60px;
+    height:100px;
+	width:320px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #333;
+}	
+	
+</style>
 </head>
-<body onload="play()">
-
-<div id="container" style="width:1280px">
 	
-<div id="header" style="height:100px;width:1280px;">
+<body>
 
-<input style=" height: 80px; width: 200px; font-size:50px" id="age" value="3" size="8" >
+
+
+<div id="header" style="height:700px;width:1280px;">
+<ul>
+  <li><a class="active" href="https://m.iptv222.com/?act=play&token=4ff553a17da8f8a4c2f3f6408bab6d16&tid=ys&id=1" target="iframe_a">CCTV 1</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=79b43fed7cb012d21e33f436edb1c8fd&tid=ys&id=14" target="iframe_a">CCTV 13</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=fd349b72eca707e10281e96e4dc2a4c1&tid=ys&id=5" target="iframe_a">CCTV 5</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=32be377ec70543184cb4bda48df4800e&tid=ys&id=6" target="iframe_a">CCTV 5+</a></li>
+	
+  <li><a href="https://zooeyng.github.io/TV/tdm1.html" target="iframe_a">澳視澳門</a></li>
+  <li><a href="https://zooeyng.github.io/TV/tdm3.html" target="iframe_a">澳門資訊</a></li>
+  <li><a href="https://zooeyng.github.io/TV/tdm2.html" target="iframe_a">澳門體育</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=330663856a2ebbd81c14fce36756507e&tid=gt&id=8" target="iframe_a">VIU</a></li>
+	
+  <li><a href="https://m.iptv222.com/?act=play&token=f0923125e8b21ba1e08531608ae2113c&tid=gt&id=1" target="iframe_a">TVB</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=7267ddee10b7e0ecd57424a8336f8c57&tid=gt&id=9" target="iframe_a">無線新聞</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=a6a948adfea6ed5bbebd8d2971a32994&tid=gt&id=12" target="iframe_a">J2</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=ac4111d517a0670c151f156fb7ba2e36&tid=gt&id=10" target="iframe_a">J5</a></li>	
+	
+  <li><a href="https://m.iptv222.com/?act=play&token=9b9d8939f6feea5622a0218b773f683b&tid=gt&id=16" target="iframe_a">NOW新聞</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=fbf813ef828179e3525c26e36d3204b2&tid=gt&id=15" target="iframe_a">NOW體育</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=ca627b45106856eabab681e7afb73232&tid=gt&id=17" target="iframe_a">NOW財經</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=8c4f106d4c2b4c41ec8ae513a01dff9e&tid=gt&id=18" target="iframe_a">NOW直播</a></li>
+	
+  <li><a href="https://zooeyng.github.io/TV/hov.html" target="iframe_a">開電視</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=326ea3126d2247f19877e64074bf99e3&tid=gt&id=6" target="iframe_a">開資訊</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=25d55e9d510ceba3a6d5b6a46beeef7f&tid=gt&id=20" target="iframe_a">港台31</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=b025ca00a35ff12fd362d1cfb8c4244e&tid=gt&id=21" target="iframe_a">港台32</a></li>
+    
+  <li><a href="https://m.iptv222.com/?act=play&token=1f401ed06c36bc8c169183aca4fb7285&tid=gt&id=24" target="iframe_a">有線新聞</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=5607fc02eb1082da88204e8cfee7c6d1&tid=gt&id=26" target="iframe_a">有線603</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=db4452ede6d30839205c4d9c60f59bdf&tid=gt&id=27" target="iframe_a">有線體育</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=9792c6b48086906c1874ba2d71838088&tid=gt&id=28" target="iframe_a">有線財經</a></li>
   
-<button style=" height: 80px; width: 200px; font-size:50px" onclick="ttt()">上一頁</button>
-<button style=" height: 80px; width: 200px; font-size:50px" onclick="sss()">II</button>
-<button style=" height: 80px; width: 200px; font-size:50px" onclick="ooo()">下一頁</button>
-<button style=" height: 80px; width: 200px; font-size:50px" onclick="ppp()">GO</button>
-</div>
-
-<div id="content" style="height:720px;width:1280px;float:left;">
+  <li><a href="https://m.iptv222.com/?act=play&token=bd00f352d9b52bfc1ffaea1945d1701e&tid=gt&id=53" target="iframe_a">中天新聞</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=691453c6bbe2e3581d0ec32bfff5e464&tid=gt&id=54" target="iframe_a">TVBS新聞</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=e81978a5bcf32c0eddc9e428b9515556&tid=gt&id=55" target="iframe_a">東森新聞</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=42779a1121d4e03332ec1658570be36c&tid=gt&id=60" target="iframe_a">中視新聞</a></li>
+  
+</ul>
 	
-	<video id="myVideo" class="video-js vjs-default-skin" controls preload="auto" width="1250" height="703" data-setup='{}'>
-        <source src="http://live4.tdm.com.mo/ch1/_definst_/ch1.live/playlist.m3u8" type="application/x-mpegURL">
-        </video>
-	
-<script>
-var x,e,f,g;
-f = document.getElementById("age").value;
-x = document.getElementById("myVideo");
-g = Number(f);
-var d = new Date().getDay();	
-	
-function ppp(){
-	switch (g){
-  		case 7:e="https://www.ast.tv/stream/1/master.m3u8";
-    	break;
- 		case 1:e="http://live.redtraffic.net/woman.m3u8";
-        break;
-  		case 2:e="http://cdn.adultiptv.net/bigdick.m3u8";
-        break;
-                case 3:e="http://cdn.adultiptv.net/gay.m3u8";
-   	break;
-  		case 4:e="http://cdn.adultiptv.net/blowjob.m3u8";
-    	break;
-  		case 5:e="http://210.210.155.37/dr9445/h/h14/index.m3u8";
-        break;
-  		case 6:e="http://cdn.adultiptv.net/asian.m3u8";
-    	break;
- 	}
-    	x.src =e;
- 	x.load();
-	x.play();
-}
-	
-function ttt(){
-	switch (d){
-  		case 7:e="https://www.ast.tv/stream/1/master.m3u8";
-    	break;
- 		case 1:e="http://live.redtraffic.net/woman.m3u8";
-        break;
-  		case 2:e="http://cdn.adultiptv.net/bigdick.m3u8";
-        break;
-                case 3:e="http://cdn.adultiptv.net/gay.m3u8";
-   	break;
-  		case 4:e="http://cdn.adultiptv.net/blowjob.m3u8";
-    	break;
-  		case 5:e="http://210.210.155.37/dr9445/h/h14/index.m3u8";
-        break;
-  		case 6:e="http://cdn.adultiptv.net/asian.m3u8";
-    	break;
- 	}
-    	x.src =e;
- 	x.load();
-	x.play();
-}
-	
-function sss(){ 
-    	x.src = "http://210.210.155.37/dr9445/h/h14/index.m3u8";
- 	x.load();
-	x.play();
-}
-	
-function ooo(){ 
-    	x.src = "http://cdn.adultiptv.net/blowjob.m3u8";
- 	x.load();
-	x.play();
-} 
-		
-function play()
-{ 
-  x.play(); 
-} 
-		
-</script>
 	
 </div>
 
-<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
-video player</div>
+<div id="content" style="height:900px;width:1280px;float:left;">
+<iframe  height="900" width="1280" name="iframe_a"></iframe>	
+</div>
+
+<div id="footer" style="clear:both;text-align:center;height:500px;width:1280px;">
+
+<ul>
+  <li><a class="active" href="https://m.iptv222.com/?act=play&token=5460f509453317228455310fd89cf2f1&tid=ws&id=1" target="iframe_a">湖南卫视</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=c0fde7fc0c32fdacf91429c9a9815a0b&tid=ws&id=2" target="iframe_a">江苏卫视</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=b949b7f8f78a085988a3b4d3c39234f1&tid=ws&id=3" target="iframe_a">浙江卫视</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=1c66670376756938cd5774c2299b7762&tid=ws&id=4" target="iframe_a">东方卫视</a></li>
+  
+  <li><a href="https://zooeyng.github.io/TV/kpop.html" target="iframe_a">KPOP</a></li>
+  <li><a href="https://zooeyng.github.io/TV/mbc.html" target="iframe_a">MBC</a></li>
+  <li><a href="https://zooeyng.github.io/TV/kbs.html" target="iframe_a">KBS</a></li>
+  <li><a href="https://zooeyng.github.io/TV/skymoive.html" target="iframe_a">天映頻道</a></li>	
+  
+  <li><a href="https://m.iptv222.com/?act=play&token=b610dd483839c2d36572b44629117c67&tid=gt&id=82" target="iframe_a">中視</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=47aff6a405b1789b45fbed98ccfc8d56&tid=gt&id=83" target="iframe_a">台視</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=d9c5794ff2ec130f1c84db80a284bcef&tid=gt&id=95" target="iframe_a">TVBS</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=dceb03a2712a04cd46ee3d958c14bd94&tid=gt&id=97" target="iframe_a">TVBS歡樂</a></li>
+	
+  <li><a href="https://m.iptv222.com/?act=play&token=f6d0037897e24a211f5bd8b893dd58b6&tid=gt&id=102" target="iframe_a">旅遊台</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=dae7b3f4887f4b806b8d5406e44c6d54&tid=gt&id=101" target="iframe_a">民視</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=e5dd6151bd3d26180d46af4c31c815b0&tid=gt&id=2" target="iframe_a">鳳凰衛視</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=59aee64243a452a3f73dc1ee5523c465&tid=gt&id=3" target="iframe_a">鳳凰資訊</a></li>
+  
+  <li><a href="https://zooeyng.github.io/TV/cna.html" target="iframe_a">CNA</a></li>
+  <li><a href="https://zooeyng.github.io/TV/cnn.html" target="iframe_a">CNN</a></li>
+  <li><a href="https://zooeyng.github.io/TV/fox.html" target="iframe_a">FOX</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=600ef73eb775d0f640b4d9e9b22e9061&tid=gt&id=57" target="iframe_a">三立新聞</a></li>
+	
+  <li><a href="https://m.iptv222.com/?act=play&token=c6b5c562d9382b5f974cc5909784700c&tid=ty&id=28" target="iframe_a">愛爾達 1</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=d9763835a7b47edff1fc31f3e592f875&tid=ty&id=29" target="iframe_a">愛爾達 2</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=e1e7bdd60e9ed5fc25c7e74facdfa320&tid=ty&id=30" target="iframe_a">愛爾達 3</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=06dc28f04319963ff7deb74717b71994&tid=ty&id=23" target="iframe_a">緯來體育</a></li>
+	
+  <li><a href="https://m.iptv222.com/?act=play&token=eee2b69854f482370517e2923ae4f586&tid=gt&id=108" target="iframe_a">ELEVEN1</a></li>
+  <li><a href="https://m.iptv222.com/?act=play&token=ee66a627a3ca34513d96abbd08fcc248&tid=gt&id=109" target="iframe_a">ELEVEN2</a></li>	
+  <li><a href="https://m.iptv222.com/?act=play&token=4aff7f6f9672ea1588293e9f45726fab&tid=ty&id=16" target="iframe_a">先鋒乒羽</a></li>
+  <li><a href="https://zooeyng.github.io/TV/Fashion.html" target="iframe_a">Fashion</a></li>
+  
+</ul>
+	
+</div>
 
 </div>
  
 </body>
 </html>
+
+

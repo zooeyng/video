@@ -12,7 +12,7 @@ p {
 }
 button {
 	text-align:center;
-	font-size:100px;
+	font-size:60px;
 	color: #FFFFFF;
 	font-weight:bold;
 	background-color: #FF66C4;
@@ -36,30 +36,32 @@ button {
 </div>
 
 <div id="footer" style="background-color:#000000;clear:both;text-align:center;height:500px;width:1280px;" align="center">		
-<button style=" height: 200px; width: 400px; " onclick="one()">上一頁</button>
-<button style=" height: 200px; width: 300px; " onclick="sss()">II</button>
-<button style=" height: 200px; width: 400px; " onclick="two()">下一頁</button>	
+<button style=" height: 200px; width: 250px; " onclick="down5()">前五頁</button>
+<button style=" height: 200px; width: 250px; " onclick="down()">上一頁</button>
+<button style=" height: 200px; width: 220px; " onclick="sss()">II</button>
+<button style=" height: 200px; width: 250px; " onclick="up()">下一頁</button>
+<button style=" height: 200px; width: 250px; " onclick="up5()">後五頁</button>
 </div>
 	
 <script>
-function one(){ 
+function down(){ 
 var e,f,g,v1;
 v1= document.getElementById("myVideo");
 f = document.getElementById("NU").innerHTML;
 g = Number(f)-1;
 document.getElementById("NU").innerHTML = g;
 	switch (g){
-  		case 0:e="http://cdn.adultiptv.net/anal.m3u8";
+  		case 0:e="http://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/stream3/streamPlaylist.m3u8";
     	break;
- 		case 1:e="http://cdn.adultiptv.net/asian.m3u8";
-        break;
-  		case 2:e="http://cdn.adultiptv.net/bigass.m3u8";
-        break;
-                case 3:e="http://cdn.adultiptv.net/bigdick.m3u8";
-   	break;
-  		case 4:e="http://cdn.adultiptv.net/bigtits.m3u8";
+		case 1:e="http://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream3/streamPlaylist.m3u8";
     	break;
-  		case 5:e="http://cdn.adultiptv.net/blonde.m3u8";
+  		case 2:e="http://media.fantv.hk/m3u8/archive/channel2.m3u8";
+    	break;
+		case 3:e="https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8";
+    	break;
+  		case 4:e="https://cdn.hklive.tv/xxxx/99/index.m3u8";
+    	break;
+		case 5:e="https://cdn.hklive.tv/xxxx/96/index.m3u8";
     	break;
 		case 6:e="http://cdn.adultiptv.net/blowjob.m3u8";
     	break;
@@ -99,19 +101,18 @@ document.getElementById("NU").innerHTML = g;
     	break;
 		case 24:e="http://cdn.adultiptv.net/threesome.m3u8";
     	break;
-  		case 25:e="http://live.redtraffic.net/woman.m3u8";
+  		case 25:e="http://cdn.adultiptv.net/anal.m3u8";
     	break;
-		case 26:e="https://www.ast.tv/stream/1/master.m3u8";
+ 		case 26:e="http://cdn.adultiptv.net/asian.m3u8";
+        break;
+  		case 27:e="http://cdn.adultiptv.net/bigass.m3u8";
+        break;
+                case 28:e="http://cdn.adultiptv.net/bigdick.m3u8";
+   	break;
+  		case 29:e="http://cdn.adultiptv.net/bigtits.m3u8";
     	break;
-  		case 27:e="https://www.ast.tv/stream/2/master.m3u8";
+  		case 30:e="http://cdn.adultiptv.net/blonde.m3u8";
     	break;
-		case 28:e="http://92.242.14.114:4022/udp/225.0.55.234:1234";
-    	break;
-  		case 29:e="http://w4.12all.tv:4000/play/pinkotv/index.m3u8";
-    	break;
-		case 30:e="http://w4.12all.tv:4000/play/privatetv1/index.m3u8";
-    	break;
-
  	}
     	v1.src =e;
  	v1.load();
@@ -120,24 +121,24 @@ document.getElementById("NU").innerHTML = g;
 </script>
 	
 <script>
-function two(){ 
+function up(){ 
 var e,f,g,v1;
 v1= document.getElementById("myVideo");
 f = document.getElementById("NU").innerHTML;
 g = Number(f)+1;
 document.getElementById("NU").innerHTML = g;
 	switch (g){
-  		case 0:e="http://cdn.adultiptv.net/anal.m3u8";
+  		  		case 0:e="http://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/stream3/streamPlaylist.m3u8";
     	break;
- 		case 1:e="http://cdn.adultiptv.net/asian.m3u8";
-        break;
-  		case 2:e="http://cdn.adultiptv.net/bigass.m3u8";
-        break;
-                case 3:e="http://cdn.adultiptv.net/bigdick.m3u8";
-   	break;
-  		case 4:e="http://cdn.adultiptv.net/bigtits.m3u8";
+		case 1:e="http://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream3/streamPlaylist.m3u8";
     	break;
-  		case 5:e="http://cdn.adultiptv.net/blonde.m3u8";
+  		case 2:e="http://media.fantv.hk/m3u8/archive/channel2.m3u8";
+    	break;
+		case 3:e="https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8";
+    	break;
+  		case 4:e="https://cdn.hklive.tv/xxxx/99/index.m3u8";
+    	break;
+		case 5:e="https://cdn.hklive.tv/xxxx/96/index.m3u8";
     	break;
 		case 6:e="http://cdn.adultiptv.net/blowjob.m3u8";
     	break;
@@ -177,17 +178,171 @@ document.getElementById("NU").innerHTML = g;
     	break;
 		case 24:e="http://cdn.adultiptv.net/threesome.m3u8";
     	break;
-  		case 25:e="http://live.redtraffic.net/woman.m3u8";
+  		case 25:e="http://cdn.adultiptv.net/anal.m3u8";
     	break;
-		case 26:e="https://www.ast.tv/stream/1/master.m3u8";
+ 		case 26:e="http://cdn.adultiptv.net/asian.m3u8";
+        break;
+  		case 27:e="http://cdn.adultiptv.net/bigass.m3u8";
+        break;
+                case 28:e="http://cdn.adultiptv.net/bigdick.m3u8";
+   	break;
+  		case 29:e="http://cdn.adultiptv.net/bigtits.m3u8";
     	break;
-  		case 27:e="https://www.ast.tv/stream/2/master.m3u8";
+  		case 30:e="http://cdn.adultiptv.net/blonde.m3u8";
     	break;
-		case 28:e="http://92.242.14.114:4022/udp/225.0.55.234:1234";
+ 	}
+    	v1.src =e;
+ 	v1.load();
+	v1.play();
+} 
+</script>
+	
+<script>
+function down5(){ 
+var e,f,g,v1;
+v1= document.getElementById("myVideo");
+f = document.getElementById("NU").innerHTML;
+g = Number(f)-5;
+document.getElementById("NU").innerHTML = g;
+	switch (g){
+  		  		case 0:e="http://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/stream3/streamPlaylist.m3u8";
     	break;
-  		case 29:e="http://w4.12all.tv:4000/play/pinkotv/index.m3u8";
+		case 1:e="http://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream3/streamPlaylist.m3u8";
     	break;
-		case 30:e="http://w4.12all.tv:4000/play/privatetv1/index.m3u8";
+  		case 2:e="http://media.fantv.hk/m3u8/archive/channel2.m3u8";
+    	break;
+		case 3:e="https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8";
+    	break;
+  		case 4:e="https://cdn.hklive.tv/xxxx/99/index.m3u8";
+    	break;
+		case 5:e="https://cdn.hklive.tv/xxxx/96/index.m3u8";
+    	break;
+		case 6:e="http://cdn.adultiptv.net/blowjob.m3u8";
+    	break;
+  		case 7:e="http://cdn.adultiptv.net/brunette.m3u8";
+    	break;
+		case 8:e="http://cdn.adultiptv.net/compilation.m3u8";
+    	break;
+  		case 9:e="http://cdn.adultiptv.net/cuckold.m3u8";
+    	break;
+		case 10:e="http://cdn.adultiptv.net/fetish.m3u8";
+    	break;
+  		case 11:e="http://cdn.adultiptv.net/gangbang.m3u8";
+    	break;
+		case 12:e="http://cdn.adultiptv.net/gay.m3u8";
+    	break;
+  		case 13:e="http://cdn.adultiptv.net/hardcore.m3u8";
+    	break;
+		case 14:e="http://cdn.adultiptv.net/interracial.m3u8";
+    	break;
+  		case 15:e="http://cdn.adultiptv.net/latina.m3u8";
+    	break;
+		case 16:e="http://cdn.adultiptv.net/lesbian.m3u8";
+    	break;
+  		case 17:e="http://cdn.adultiptv.net/livecams.m3u8";
+    	break;
+		case 18:e="http://cdn.adultiptv.net/milf.m3u8";
+    	break;
+  		case 19:e="http://cdn.adultiptv.net/pornstar.m3u8";
+    	break;
+		case 20:e="http://cdn.adultiptv.net/pov.m3u8";
+    	break;
+  		case 21:e="http://cdn.adultiptv.net/rough.m3u8";
+    	break;
+		case 22:e="http://cdn.adultiptv.net/russian.m3u8";
+    	break;
+  		case 23:e="http://cdn.adultiptv.net/teen.m3u8";
+    	break;
+		case 24:e="http://cdn.adultiptv.net/threesome.m3u8";
+    	break;
+  		case 25:e="http://cdn.adultiptv.net/anal.m3u8";
+    	break;
+ 		case 26:e="http://cdn.adultiptv.net/asian.m3u8";
+        break;
+  		case 27:e="http://cdn.adultiptv.net/bigass.m3u8";
+        break;
+                case 28:e="http://cdn.adultiptv.net/bigdick.m3u8";
+   	break;
+  		case 29:e="http://cdn.adultiptv.net/bigtits.m3u8";
+    	break;
+  		case 30:e="http://cdn.adultiptv.net/blonde.m3u8";
+    	break;
+ 	}
+    	v1.src =e;
+ 	v1.load();
+	v1.play();
+} 
+</script>
+	
+<script>
+function up5(){ 
+var e,f,g,v1;
+v1= document.getElementById("myVideo");
+f = document.getElementById("NU").innerHTML;
+g = Number(f)+5;
+document.getElementById("NU").innerHTML = g;
+	switch (g){
+  		  		case 0:e="http://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/stream3/streamPlaylist.m3u8";
+    	break;
+		case 1:e="http://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream3/streamPlaylist.m3u8";
+    	break;
+  		case 2:e="http://media.fantv.hk/m3u8/archive/channel2.m3u8";
+    	break;
+		case 3:e="https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8";
+    	break;
+  		case 4:e="https://cdn.hklive.tv/xxxx/99/index.m3u8";
+    	break;
+		case 5:e="https://cdn.hklive.tv/xxxx/96/index.m3u8";
+    	break;
+		case 6:e="http://cdn.adultiptv.net/blowjob.m3u8";
+    	break;
+  		case 7:e="http://cdn.adultiptv.net/brunette.m3u8";
+    	break;
+		case 8:e="http://cdn.adultiptv.net/compilation.m3u8";
+    	break;
+  		case 9:e="http://cdn.adultiptv.net/cuckold.m3u8";
+    	break;
+		case 10:e="http://cdn.adultiptv.net/fetish.m3u8";
+    	break;
+  		case 11:e="http://cdn.adultiptv.net/gangbang.m3u8";
+    	break;
+		case 12:e="http://cdn.adultiptv.net/gay.m3u8";
+    	break;
+  		case 13:e="http://cdn.adultiptv.net/hardcore.m3u8";
+    	break;
+		case 14:e="http://cdn.adultiptv.net/interracial.m3u8";
+    	break;
+  		case 15:e="http://cdn.adultiptv.net/latina.m3u8";
+    	break;
+		case 16:e="http://cdn.adultiptv.net/lesbian.m3u8";
+    	break;
+  		case 17:e="http://cdn.adultiptv.net/livecams.m3u8";
+    	break;
+		case 18:e="http://cdn.adultiptv.net/milf.m3u8";
+    	break;
+  		case 19:e="http://cdn.adultiptv.net/pornstar.m3u8";
+    	break;
+		case 20:e="http://cdn.adultiptv.net/pov.m3u8";
+    	break;
+  		case 21:e="http://cdn.adultiptv.net/rough.m3u8";
+    	break;
+		case 22:e="http://cdn.adultiptv.net/russian.m3u8";
+    	break;
+  		case 23:e="http://cdn.adultiptv.net/teen.m3u8";
+    	break;
+		case 24:e="http://cdn.adultiptv.net/threesome.m3u8";
+    	break;
+  		case 25:e="http://cdn.adultiptv.net/anal.m3u8";
+    	break;
+ 		case 26:e="http://cdn.adultiptv.net/asian.m3u8";
+        break;
+  		case 27:e="http://cdn.adultiptv.net/bigass.m3u8";
+        break;
+                case 28:e="http://cdn.adultiptv.net/bigdick.m3u8";
+   	break;
+  		case 29:e="http://cdn.adultiptv.net/bigtits.m3u8";
+    	break;
+  		case 30:e="http://cdn.adultiptv.net/blonde.m3u8";
     	break;
  	}
     	v1.src =e;

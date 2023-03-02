@@ -83,6 +83,18 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=30
 #EXTINF:-1 tvg-name="Racing" tvg-logo="",Racing
 https://racingvic-i.akamaized.net/hls/live/598695/racingvic/index1500.m3u8
+#EXTINF:-1 tvg-name="Reload" tvg-logo="",Reload
+http://web.onair-radio.eu:1935/video/video/chunklist.m3u8
+#EXTINF:-1 tvg-name="optaha" tvg-logo="",optaha
+http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/chunklist.m3u8
+#EXTINF:-1 tvg-name="MTV 1" tvg-logo="",MTV 1
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
+#EXTINF:-1 tvg-name="MTV 2" tvg-logo="",MTV 2
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS03/master.m3u8
+#EXTINF:-1 tvg-name="台視新聞" tvg-logo="",台視新聞
+http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
+#EXTINF:-1 tvg-name="TVBS新聞" tvg-logo="",TVBS新聞
+http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 #EXTINF:-1 tvg-name="Stingray Ambience" tvg-logo=" ",Stingray Ambience
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-viziostingrayambiance/CDN/playlist.m3u8
 #EXTINF:-1 tvg-name="Stingray Classic Rock" tvg-logo=" ",Stingray Classic Rock

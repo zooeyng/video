@@ -1,0 +1,25 @@
+#EXTM3U
+#EXTINF:-1 tvg-name=" 天映頻道" tvg-logo="", 天映頻道
+http://210.210.155.37/dr9445/h/h14/index.m3u8
+#EXTINF:-1 tvg-name=" 澳視澳門" tvg-logo="", 澳視澳門
+http://live4.tdm.com.mo/ch1/_definst_/ch1.live/playlist.m3u8
+#EXTINF:-1 tvg-name=" 澳視體育" tvg-logo="", 澳視體育
+https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
+#EXTINF:-1 tvg-name=" 澳門資訊" tvg-logo="", 澳門資訊
+https://live3.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
+#EXTINF:-1 tvg-name=" MBC" tvg-logo="", MBC
+http://andong.webcasting.co.kr/live/mbc/playlist.m3u8
+#EXTINF:-1 tvg-name=" CJB" tvg-logo="", CJB
+http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
+#EXTINF:-1 tvg-name=" MBC" tvg-logo="", MBC
+http://123.254.72.24:1935/tvlive/livestream2/playlist.m3u8
+#EXTINF:-1 tvg-name="KBS World" tvg-logo="",KBS World
+https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
+#EXTINF:-1 tvg-name="台視新聞" tvg-logo="",台視新聞
+http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
+#EXTINF:-1 tvg-name="TVBS新聞" tvg-logo="",TVBS新聞
+http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
+
+
+
+

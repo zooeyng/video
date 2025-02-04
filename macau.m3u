@@ -5,14 +5,14 @@ https://locallive.tdm.com.mo/ch1/ch1.live/playlist.m3u8
 https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
 #EXTINF:-1 tvg-name=" 澳門資訊" tvg-logo="", 澳門資訊
 https://live3.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
-#EXTINF:-1 tvg-name=" MBC" tvg-logo="", MBC
-http://andong.webcasting.co.kr/live/mbc/playlist.m3u8
-#EXTINF:-1 tvg-name=" CJB" tvg-logo="", CJB
-http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
-#EXTINF:-1 tvg-name=" MBC" tvg-logo="", MBC
-http://123.254.72.24:1935/tvlive/livestream2/playlist.m3u8
-#EXTINF:-1 tvg-name="KBS World" tvg-logo="",KBS World
-https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
+#EXTINF:-1 tvg-name=" 澳門綜藝" tvg-logo="", 澳門綜藝
+https://live3.tdm.com.mo/ch6/hd_ch6.live/playlist.m3u8
+#EXTINF:-1 tvg-name=" 澳門衛星" tvg-logo="", 澳門衛星
+https://live3.tdm.com.mo/ch3/ch3.live/playlist.m3u8
+#EXTINF:-1 tvg-name=" FM 100.7" tvg-logo="", FM 100.7
+https://live3.tdm.com.mo/live/rch2.live/playlist.m3u8
+#EXTINF:-1 tvg-name="FM 98" tvg-logo="",FM 98
+https://live3.tdm.com.mo/live/rch1.live/playlist.m3u8
 #EXTINF:-1 tvg-name="台視新聞" tvg-logo="",台視新聞
 http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
 #EXTINF:-1 tvg-name="TVBS新聞" tvg-logo="",TVBS新聞

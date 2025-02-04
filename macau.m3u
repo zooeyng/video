@@ -13,8 +13,8 @@ https://live3.tdm.com.mo/ch3/ch3.live/playlist.m3u8
 https://live3.tdm.com.mo/live/rch2.live/playlist.m3u8
 #EXTINF:-1 tvg-name="FM 98" tvg-logo="",FM 98
 https://live3.tdm.com.mo/live/rch1.live/playlist.m3u8
-#EXTINF:-1 tvg-name="台視新聞" tvg-logo="",台視新聞
-https://t1.iptv200.com/live/cctv13/index.m3u8?session=939b4sf31df4v2w7f7bhaxann9dn5afs
+#EXTINF:-1 tvg-name="test1" tvg-logo="",test1
+https://ldncctvwbcdcnchw.v.cdn20.com/ldncctvwbcd/cdrmldcctv13_1_720P/playlist.m3u8
 #EXTINF:-1 tvg-name="TVBS新聞" tvg-logo="",TVBS新聞
 https://t1.iptv200.com/live/cctv13/index.m3u8
 

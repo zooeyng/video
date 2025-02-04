@@ -1,8 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-name=" 天映頻道" tvg-logo="", 天映頻道
-http://210.210.155.37/dr9445/h/h14/index.m3u8
 #EXTINF:-1 tvg-name=" 澳視澳門" tvg-logo="", 澳視澳門
-http://live4.tdm.com.mo/ch1/_definst_/ch1.live/playlist.m3u8
+https://live4.tdm.com.mo/ch1/_definst_/ch1.live/playlist.m3u8
 #EXTINF:-1 tvg-name=" 澳視體育" tvg-logo="", 澳視體育
 https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
 #EXTINF:-1 tvg-name=" 澳門資訊" tvg-logo="", 澳門資訊

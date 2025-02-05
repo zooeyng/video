@@ -13,11 +13,3 @@ https://live3.tdm.com.mo/ch3/ch3.live/playlist.m3u8
 https://live3.tdm.com.mo/live/rch2.live/playlist.m3u8
 #EXTINF:-1 tvg-name="FM 98" tvg-logo="",FM 98
 https://live3.tdm.com.mo/live/rch1.live/playlist.m3u8
-#EXTINF:-1 tvg-name="test1" tvg-logo="",test1
-https://stream1.freetv.fun/c0e7ea4301dbb407959ee0de04e20a71c61f14d69d2868f5a1c73169fae0579f.m3u8
-#EXTINF:-1 tvg-name="MAX" tvg-logo="",MAX
-https://stream1.freetv.fun/b990a8d810881552c0686fac3ab76d4a7760379bf1068819599deec9b2c1a822.m3u8
-
-
-
-

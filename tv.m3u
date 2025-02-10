@@ -81,13 +81,3 @@ http://cdn.adultiptv.net/teen.m3u8
 http://cdn.adultiptv.net/threesome.m3u8
 #EXTINF:-1 tvg-id="AdultIPTVnetWoman.us" tvg-logo=" " group-title="XXX",Woman
 http://live.redtraffic.net/woman.m3u8
-#EXTINF:-1 tvg-id="ASTTV1.cy" tvg-logo=" " group-title="XXX",AST TV 1 
-https://www.ast.tv/stream/1/master.m3u8
-#EXTINF:-1 tvg-id="ASTTV2.cy" tvg-logo=" " group-title="XXX",AST TV 2 
-https://www.ast.tv/stream/2/master.m3u8
-#EXTINF:-1 tvg-id="Olala.ru" tvg-logo=" " group-title="XXX",O-la-la
-http://92.242.14.114:4022/udp/225.0.55.234:1234
-#EXTINF:-1 tvg-id="PinkOTV.it" tvg-logo=" " group-title="XXX",Pink'O TV
-http://w4.12all.tv:4000/play/pinkotv/index.m3u8
-#EXTINF:-1 tvg-id="RedlightHD.nl" tvg-logo=" " group-title="XXX",Redlight HD
-http://w4.12all.tv:4000/play/privatetv1/index.m3u8

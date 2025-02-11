@@ -13,3 +13,5 @@ https://live3.tdm.com.mo/ch3/ch3.live/playlist.m3u8
 https://live3.tdm.com.mo/live/rch2.live/playlist.m3u8
 #EXTINF:-1 tvg-name="FM 98" tvg-logo="",FM 98
 https://live3.tdm.com.mo/live/rch1.live/playlist.m3u8
+#EXTINF:-1 tvg-name=" TJB" tvg-logo="", TJB
+http://1.245.74.5:1935/live/tv/.m3u8

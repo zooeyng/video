@@ -77,7 +77,7 @@ https://travelxp-travelxp-1-eu.xiaomi.wurl.tv/playlist.m3u8
 https://food-eu.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="国际",Ondemand China
 https://newidco-ondemandchina-1-us.xiaomi.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="AKTV",中天新聞台
+#EXTINF:-1 group-title="TV",中天新聞台
 http://aktv.top/AKTV/live/aktv/null-8/AKTV.m3u8
 #EXTINF:-1 group-title="TV",翡翠台
 http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8

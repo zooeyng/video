@@ -1,17 +1,33 @@
 #EXTM3U
-#EXTINF:-1 tvg-name=" 澳視澳門" tvg-logo="", 澳視澳門
+#EXTINF:-1 group-title="TDM", 澳視澳門
 https://locallive.tdm.com.mo/ch1/ch1.live/playlist.m3u8
-#EXTINF:-1 tvg-name=" 澳視體育" tvg-logo="", 澳視體育
+#EXTINF:-1 group-title="TDM", 澳視體育
 https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
-#EXTINF:-1 tvg-name=" 澳門資訊" tvg-logo="", 澳門資訊
+#EXTINF:-1 group-title="TDM", 澳門資訊
 https://live3.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
-#EXTINF:-1 tvg-name=" 澳門綜藝" tvg-logo="", 澳門綜藝
+#EXTINF:-1 group-title="TDM", 澳門綜藝
 https://live3.tdm.com.mo/ch6/hd_ch6.live/playlist.m3u8
-#EXTINF:-1 tvg-name=" 澳門衛星" tvg-logo="", 澳門衛星
+#EXTINF:-1 group-title="TDM", 澳門衛星
 https://live3.tdm.com.mo/ch3/ch3.live/playlist.m3u8
-#EXTINF:-1 tvg-name=" FM 100.7" tvg-logo="", FM 100.7
+#EXTINF:-1 group-title="TDM", FM 100.7
 https://live3.tdm.com.mo/live/rch2.live/playlist.m3u8
-#EXTINF:-1 tvg-name="FM 98" tvg-logo="",FM 98
+#EXTINF:-1 group-title="TDM", FM 98
 https://live3.tdm.com.mo/live/rch1.live/playlist.m3u8
-#EXTINF:-1 tvg-name=" TJB" tvg-logo="", TJB
-http://1.245.74.5:1935/live/tv/.m3u8
+#EXTINF:-1 group-title="香港", 翡翠台
+http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
+#EXTINF:-1 group-title="香港", 無線新聞台
+http://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
+#EXTINF:-1 group-title="香港", TVB Plus
+http://aktv.top/AKTV/live/aktv/tvbplus/AKTV.m3u8
+#EXTINF:-1 group-title="香港", 翡翠综合台
+http://aktv.top/AKTV/live/aktv/null-17/AKTV.m3u8
+#EXTINF:-1 group-title="香港", 娛樂新聞台
+http://aktv.top/AKTV/live/aktv/hk/AKTV.m3u8
+#EXTINF:-1 group-title="香港", myTV SUPER
+http://aktv.top/AKTV/live/aktv/mytvsuper18/AKTV.m3u8
+#EXTINF:-1 group-title="香港", 翡翠剧集台
+http://aktv.top/AKTV/live/aktv/null-18/AKTV.m3u8
+#EXTINF:-1 group-title="香港", 美亞電影台
+http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
+#EXTINF:-1 group-title="香港", 東森新聞
+http://aktv.top/AKTV/live/aktv2/null/AKTV.m3u8

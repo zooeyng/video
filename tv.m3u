@@ -15,8 +15,6 @@ https://live3.tdm.com.mo/live/rch2.live/playlist.m3u8
 https://live3.tdm.com.mo/live/rch1.live/playlist.m3u8
 #EXTINF:-1 tvg-name=" CCTV 1" tvg-logo="" group-title="TV", CCTV 1
 https://locallive.tdm.com.mo/cgtn/cgtn71/playlist.m3u8
-#EXTINF:-1 tvg-name="FTV 4k" tvg-logo="" group-title="TV", Fashion TV 4k
-https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Red Bull TV " tvg-logo="" group-title="TV", Red Bull
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-id="AdultIPTVnetAnal.us" tvg-logo=" " group-title="TV",Anal

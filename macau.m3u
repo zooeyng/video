@@ -17,3 +17,11 @@ https://live3.tdm.com.mo/live/rch1.live/playlist.m3u8
 https://locallive.tdm.com.mo/cgtn/cgtn71/playlist.m3u8
 #EXTINF:-1 tvg-id="Red Bull TV " tvg-logo="" group-title="TV", Red Bull
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 tvg-name=" CJB" tvg-logo="" group-title="TV", CJB
+http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
+#EXTINF:-1 tvg-name="時尚" tvg-logo="" group-title="TV", 時尚
+http://iptv.prosto.tv:7000/ch144/video.m3u8
+#EXTINF:-1 tvg-name="CNA" tvg-logo="" group-title="TV", CNA
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+#EXTINF:-1 tvg-name="b" tvg-logo=" " group-title="TV", MHZ
+https://mhz-samsung-linear-ca.samsung.wurl.tv/playlist.m3u8

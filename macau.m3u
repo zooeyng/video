@@ -26,5 +26,11 @@ https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u
 #EXTINF:-1 tvg-name="MHZ" tvg-logo=" " group-title="TV", MHZ
 https://mhz-samsung-linear-ca.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="LIVE" tvg-logo=" " group-title="TV", m3u8
-http://192.168.1.168/lives/m0/hls.m3u8
+http://192.168.31.168/lives/m0/hls.m3u8
+#EXTINF:-1 tvg-name="LIVE" tvg-logo=" " group-title="TV", flv
+http://192.168.31.168/lives/m0.live.flv
+#EXTINF:-1 tvg-name="LIVE" tvg-logo=" " group-title="TV", ts
+http://192.168.31.168/lives/m0.live.ts
+#EXTINF:-1 tvg-name="LIVE" tvg-logo=" " group-title="TV", rtmp
+rtmp://192.168.31.168:1935/lives/m0
 

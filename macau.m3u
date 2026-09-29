@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-name=" 澳視澳門" tvg-logo="" group-title="TV", 澳視澳門
 https://locallive.tdm.com.mo/ch1/ch1.live/playlist.m3u8
+#EXTINF:-1 tvg-name="LIVE" tvg-logo=" " group-title="TV", LIVE
+http://192.168.31.168/lives/m0.live.ts
 #EXTINF:-1 tvg-name=" 澳視體育" tvg-logo="" group-title="TV", 澳視體育
 https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
 #EXTINF:-1 tvg-name=" 澳門資訊" tvg-logo="" group-title="TV", 澳門資訊
@@ -24,13 +26,6 @@ http://iptv.prosto.tv:7000/ch144/video.m3u8
 #EXTINF:-1 tvg-name="CNA" tvg-logo="" group-title="TV", CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 #EXTINF:-1 tvg-name="MHZ" tvg-logo=" " group-title="TV", MHZ
-https://mhz-samsung-linear-ca.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="LIVE" tvg-logo=" " group-title="TV", m3u8
-http://192.168.31.168/lives/m0/hls.m3u8
-#EXTINF:-1 tvg-name="LIVE" tvg-logo=" " group-title="TV", flv
-http://192.168.31.168/lives/m0.live.flv
-#EXTINF:-1 tvg-name="LIVE" tvg-logo=" " group-title="TV", ts
-http://192.168.31.168/lives/m0.live.ts
-#EXTINF:-1 tvg-name="LIVE" tvg-logo=" " group-title="TV", rtmp
-rtmp://192.168.31.168:1935/lives/m0
+
+
 

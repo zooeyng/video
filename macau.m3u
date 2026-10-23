@@ -1,31 +1,31 @@
 #EXTM3U
-#EXTINF:-1 tvg-name=" 澳視澳門" tvg-logo="" group-title="TV", 澳視澳門
+#EXTINF:-1 tvg-name="澳視澳門" tvg-logo="" group-title="TV", 澳視澳門
 https://locallive.tdm.com.mo/ch1/ch1.live/playlist.m3u8
 #EXTINF:-1 tvg-name="LIVE" tvg-logo=" " group-title="TV", LIVE
 http://192.168.31.168/lives/m0.live.ts
-#EXTINF:-1 tvg-name=" 澳視體育" tvg-logo="" group-title="TV", 澳視體育
+#EXTINF:-1 tvg-name="澳視體育" tvg-logo="" group-title="TV", 澳視體育
 https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
-#EXTINF:-1 tvg-name=" 澳門資訊" tvg-logo="" group-title="TV", 澳門資訊
+#EXTINF:-1 tvg-name="澳門資訊" tvg-logo="" group-title="TV", 澳門資訊
 https://live3.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
-#EXTINF:-1 tvg-name=" 澳門綜藝" tvg-logo="" group-title="TV", 澳門綜藝
+#EXTINF:-1 tvg-name="澳門綜藝" tvg-logo="" group-title="TV", 澳門綜藝
 https://live3.tdm.com.mo/ch6/hd_ch6.live/playlist.m3u8
-#EXTINF:-1 tvg-name=" 澳門衛星" tvg-logo="" group-title="TV", 澳門衛星
+#EXTINF:-1 tvg-name="澳門衛星" tvg-logo="" group-title="TV", 澳門衛星
 https://live3.tdm.com.mo/ch3/ch3.live/playlist.m3u8
-#EXTINF:-1 tvg-name=" FM 100.7" tvg-logo="" group-title="TV", FM 100.7
-https://live3.tdm.com.mo/live/rch2.live/playlist.m3u8
+#EXTINF:-1 tvg-name="FM 100.7" tvg-logo="" group-title="TV", FM 100.7
+https://live3.tdm.com.mo/live/rch2a.live/playlist.m3u8
 #EXTINF:-1 tvg-name="FM 98" tvg-logo="" group-title="TV", FM 98
-https://live3.tdm.com.mo/live/rch1.live/playlist.m3u8
-#EXTINF:-1 tvg-name=" CCTV 1" tvg-logo="" group-title="TV", CCTV 1
+https://live3.tdm.com.mo/live/rch1a.live/playlist.m3u8
+#EXTINF:-1 tvg-name="CCTV 1" tvg-logo="" group-title="TV", CCTV 1
 https://locallive.tdm.com.mo/cgtn/cgtn71/playlist.m3u8
+#EXTINF:-1 tvg-name="CGTN 73" tvg-logo="" group-title="TV", CGTN 73
+https://locallive.tdm.com.mo/cgtn/cgtn73/playlist.m3u8
+#EXTINF:-1 tvg-name="CGTN 74" tvg-logo="" group-title="TV", CGTN 74
+https://locallive.tdm.com.mo/cgtn/cgtn74/playlist.m3u8
 #EXTINF:-1 tvg-id="Red Bull TV " tvg-logo="" group-title="TV", Red Bull
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-#EXTINF:-1 tvg-name=" CJB" tvg-logo="" group-title="TV", CJB
+#EXTINF:-1 tvg-name="CJB" tvg-logo="" group-title="TV", CJB
 http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
 #EXTINF:-1 tvg-name="時尚" tvg-logo="" group-title="TV", 時尚
 http://iptv.prosto.tv:7000/ch144/video.m3u8
 #EXTINF:-1 tvg-name="CNA" tvg-logo="" group-title="TV", CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
-#EXTINF:-1 tvg-name="MHZ" tvg-logo=" " group-title="TV", MHZ
-
-
-

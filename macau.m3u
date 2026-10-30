@@ -16,7 +16,7 @@ https://live3.tdm.com.mo/live/rch2a.live/playlist.m3u8
 #EXTINF:-1 tvg-name="FM 98" tvg-logo="" group-title="TV", FM 98
 https://live3.tdm.com.mo/live/rch1a.live/playlist.m3u8
 #EXTINF:-1 tvg-name="antena1" tvg-logo="" group-title="TV", antena1
-https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8?DVR
+https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8
 #EXTINF:-1 tvg-name="CCTV 1" tvg-logo="" group-title="TV", CCTV 1
 https://locallive.tdm.com.mo/cgtn/cgtn71/playlist.m3u8
 #EXTINF:-1 tvg-name="CGTN 73" tvg-logo="" group-title="TV", CGTN 73
